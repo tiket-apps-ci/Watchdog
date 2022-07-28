@@ -16,7 +16,8 @@ final public class Watchdog: NSObject {
             if strictMode {
                 fatalError(message)
             } else {
-                NSLog("%@", message)
+                let string = String(format: "%@ \n %@", message, AppBacktrace.getThread(position: 0))
+                print(string)
             }
         }
     }

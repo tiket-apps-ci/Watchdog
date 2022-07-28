@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B8C66652888650B00B7A038 /* AppBacktrace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C66642888650A00B7A038 /* AppBacktrace.swift */; };
+		2B8C66672888674600B7A038 /* BSBacktraceLogger.h in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C66662888674600B7A038 /* BSBacktraceLogger.h */; };
 		5C5A35B61BAC789D0057680B /* Watchdog.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5A35B41BAC789D0057680B /* Watchdog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5CB520441BAC7844006C7C92 /* Watchdog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB520431BAC7844006C7C92 /* Watchdog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B8C66642888650A00B7A038 /* AppBacktrace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBacktrace.swift; sourceTree = "<group>"; };
+		2B8C66662888674600B7A038 /* BSBacktraceLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSBacktraceLogger.h; sourceTree = "<group>"; };
+		2B8C66682888677A00B7A038 /* BSBacktraceLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSBacktraceLogger.m; sourceTree = "<group>"; };
 		5C5A35B31BAC789D0057680B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Classes/Info.plist; sourceTree = SOURCE_ROOT; };
 		5C5A35B41BAC789D0057680B /* Watchdog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Watchdog.h; path = Classes/Watchdog.h; sourceTree = SOURCE_ROOT; };
 		5CB520271BAC7807006C7C92 /* Watchdog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Watchdog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +55,9 @@
 			children = (
 				5CB520431BAC7844006C7C92 /* Watchdog.swift */,
 				5CB5202A1BAC7807006C7C92 /* Supporting Files */,
+				2B8C66642888650A00B7A038 /* AppBacktrace.swift */,
+				2B8C66662888674600B7A038 /* BSBacktraceLogger.h */,
+				2B8C66682888677A00B7A038 /* BSBacktraceLogger.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -144,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B8C66652888650B00B7A038 /* AppBacktrace.swift in Sources */,
 				5CB520441BAC7844006C7C92 /* Watchdog.swift in Sources */,
+				2B8C66672888674600B7A038 /* BSBacktraceLogger.h in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
